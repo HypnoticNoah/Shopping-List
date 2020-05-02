@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(164, 218, 142);
+}
+
+.flex-box-header {
+  font-family: "Times New Roman";
+  text-align: center;
+  border: 8px solid black;
+  border-style: double;
+  padding: 10px;
+  background-color: rgb(113, 156, 96);
+}
+
+.buttonSubmit {
+  text-align: center;
+  border: 8px solid black;
+  border-style: double;
+  width: 30%;
+  margin: auto;
+
+  background-color: rgb(113, 156, 96);
+}
+
+.btn {
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 3px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  font-family: "Times New Roman";
+}
+
+.btn1 {
+  background-color: rgb(73, 107, 218);
+  color: white;
+  border: 3px solid black;
+}
+
+.btn1:hover {
+  background-color: rgb(30, 62, 166);
+  color: white;
+}
+
+.btn2 {
+  background-color: rgb(221, 17, 51);
+  color: white;
+  border: 3px solid black;
+}
+
+.btn2:hover {
+  background-color: rgb(161, 10, 25);
+  color: white;
+}
+
+.countdown {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: xx-large;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  border: 3px solid black;
+  background-color: rgb(113, 156, 96);
+  font-family: "Times New Roman";
+  height: 50px;
+  width: 250px;
+  text-align: center;
+}
+
+.items {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  font-style: italic
+}
+
+:-moz-placeholder {
+  color: black;
+  font-style: italic
+}
+
+::-moz-placeholder {
+  color: black;
+  font-style: italics
+}
+
+:-ms-input-placeholder {
+  color: black;
+  font-style: italic
+}
+
+#myProgress {
+  width: 100%;
+  background-color: rgb(164, 218, 142);
+  transition: width 1s;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: rgb(113, 156, 96);
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  font-style: italic;
+  font-family: "Times New Roman";
+  margin: 3px;
+}

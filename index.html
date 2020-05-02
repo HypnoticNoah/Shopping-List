@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <title>Shopping List</title>
+</head>
+
+<body>
+    <link rel="stylesheet" media="screen" href="style.css">
+    <br>
+    <div class="flex-box-header">
+        <h2>
+            Shopping List
+        </h2>
+    </div>
+    <br>
+    <div class="buttonSubmit">
+        <br>
+        <button class="btn btn1" onclick="submitItem()">Submit New Item</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn2" onclick="removeAllItems()">Remove All Items</button>
+        <br>
+        <br>
+    </div>
+    <div id="countdown" class="countdown"></div>
+    <div id="myProgress">
+        <div id="myBar"></div>
+    </div>
+    <br>
+    <form id="formbox">
+        <input name="name" type="text" id="inputReset" placeholder="Enter Item Here" onfocus="this.value=''" required>
+    </form>
+    <br>
+    <div class="items" id="container"></div>
+    <script type="text/javascript" src="submitItem.js"></script>
+    <script type="text/javascript" src="removeAllItems.js"></script>
+</body>
+
+</html>
